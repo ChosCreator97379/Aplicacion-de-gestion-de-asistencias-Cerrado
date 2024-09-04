@@ -6,5 +6,10 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void Bienvenida_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
