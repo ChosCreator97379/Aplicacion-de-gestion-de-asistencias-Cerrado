@@ -16,5 +16,15 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void Registro_E_S_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gestionPersonalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
