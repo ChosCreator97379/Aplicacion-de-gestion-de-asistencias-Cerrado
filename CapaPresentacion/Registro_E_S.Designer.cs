@@ -351,11 +351,13 @@
             // 
             comboBox2.BackColor = SystemColors.InactiveCaption;
             comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "ID", "Nombre", "Hora de Entrada", "Hora de Salida", "Fecha" });
             comboBox2.Location = new Point(358, 35);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(121, 23);
             comboBox2.TabIndex = 18;
-            comboBox2.Text = "Tipo de Registro";
+            comboBox2.Text = "Tipo de Busqueda";
+            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
             // 
             // dataGridView1
             // 
