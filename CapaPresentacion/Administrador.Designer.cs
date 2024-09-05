@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             Label label1;
-            Label label6;
             Label label2;
             Label label3;
             Label label5;
@@ -54,9 +53,6 @@
             groupBox3 = new GroupBox();
             comboBox2 = new ComboBox();
             textBox2 = new TextBox();
-            dateTimePicker2 = new DateTimePicker();
-            dateTimePicker1 = new DateTimePicker();
-            comboBox1 = new ComboBox();
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             textBox8 = new TextBox();
@@ -71,7 +67,6 @@
             textBox10 = new TextBox();
             textBox11 = new TextBox();
             label1 = new Label();
-            label6 = new Label();
             label2 = new Label();
             label3 = new Label();
             label5 = new Label();
@@ -197,12 +192,8 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(textBox2);
-            groupBox2.Controls.Add(dateTimePicker2);
             groupBox2.Controls.Add(label1);
-            groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(dateTimePicker1);
             groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(comboBox1);
             groupBox2.Controls.Add(textBox3);
             groupBox2.Controls.Add(textBox4);
             groupBox2.Controls.Add(label3);
@@ -263,14 +254,6 @@
             textBox2.Size = new Size(140, 25);
             textBox2.TabIndex = 17;
             // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Format = DateTimePickerFormat.Time;
-            dateTimePicker2.Location = new Point(421, 149);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(66, 25);
-            dateTimePicker2.TabIndex = 30;
-            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -283,27 +266,6 @@
             label1.TabIndex = 16;
             label1.Text = "ID";
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = SystemColors.ButtonHighlight;
-            label6.Font = new Font("Segoe UI", 10F);
-            label6.ForeColor = SystemColors.ActiveCaptionText;
-            label6.Location = new Point(376, 150);
-            label6.Name = "label6";
-            label6.Size = new Size(39, 19);
-            label6.TabIndex = 29;
-            label6.Text = "Hora";
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.CalendarTitleBackColor = SystemColors.ControlText;
-            dateTimePicker1.CalendarTitleForeColor = SystemColors.ActiveCaption;
-            dateTimePicker1.Location = new Point(170, 149);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 25);
-            dateTimePicker1.TabIndex = 28;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -315,17 +277,6 @@
             label2.Size = new Size(65, 19);
             label2.TabIndex = 19;
             label2.Text = "Nombres";
-            // 
-            // comboBox1
-            // 
-            comboBox1.BackColor = SystemColors.InactiveCaption;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Entrada", "Salida" });
-            comboBox1.Location = new Point(43, 149);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 25);
-            comboBox1.TabIndex = 27;
-            comboBox1.Text = "Tipo de Registro";
             // 
             // textBox3
             // 
@@ -593,9 +544,6 @@
         private Button button3;
         private ComboBox comboBox2;
         private TextBox textBox2;
-        private DateTimePicker dateTimePicker2;
-        private DateTimePicker dateTimePicker1;
-        private ComboBox comboBox1;
         private TextBox textBox3;
         private TextBox textBox4;
         private TextBox textBox8;
