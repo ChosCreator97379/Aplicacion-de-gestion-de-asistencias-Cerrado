@@ -75,11 +75,12 @@
             administracionToolStripMenuItem.Name = "administracionToolStripMenuItem";
             administracionToolStripMenuItem.Size = new Size(95, 20);
             administracionToolStripMenuItem.Text = "Administrador";
+            administracionToolStripMenuItem.Click += administracionToolStripMenuItem_Click;
             // 
             // listaDeAsistenciaToolStripMenuItem
             // 
             listaDeAsistenciaToolStripMenuItem.Name = "listaDeAsistenciaToolStripMenuItem";
-            listaDeAsistenciaToolStripMenuItem.Size = new Size(170, 22);
+            listaDeAsistenciaToolStripMenuItem.Size = new Size(180, 22);
             listaDeAsistenciaToolStripMenuItem.Text = "Lista de Asistencia";
             listaDeAsistenciaToolStripMenuItem.Click += listaDeAsistenciaToolStripMenuItem_Click;
             // 
