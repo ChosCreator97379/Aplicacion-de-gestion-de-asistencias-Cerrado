@@ -55,7 +55,6 @@
             comboBox2 = new ComboBox();
             textBox2 = new TextBox();
             dateTimePicker2 = new DateTimePicker();
-            button6 = new Button();
             dateTimePicker1 = new DateTimePicker();
             comboBox1 = new ComboBox();
             textBox3 = new TextBox();
@@ -125,43 +124,47 @@
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ActiveCaption;
             button1.Font = new Font("Segoe UI", 10F);
             button1.Location = new Point(886, 36);
             button1.Name = "button1";
             button1.Size = new Size(82, 28);
             button1.TabIndex = 4;
             button1.Text = "Buscar";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ActiveCaption;
             button2.Font = new Font("Segoe UI", 10F);
             button2.Location = new Point(1200, 37);
             button2.Name = "button2";
             button2.Size = new Size(82, 26);
             button2.TabIndex = 6;
             button2.Text = "Cerrar";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            button4.BackColor = SystemColors.ActiveCaption;
             button4.Font = new Font("Segoe UI", 10F);
-            button4.Location = new Point(550, 42);
+            button4.Location = new Point(552, 27);
             button4.Name = "button4";
             button4.Size = new Size(82, 26);
             button4.TabIndex = 8;
             button4.Text = "Añadir";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
+            button5.BackColor = SystemColors.ActiveCaption;
             button5.Font = new Font("Segoe UI", 10F);
-            button5.Location = new Point(534, 42);
+            button5.Location = new Point(534, 27);
             button5.Name = "button5";
             button5.Size = new Size(82, 26);
             button5.TabIndex = 9;
-            button5.Text = "Editar";
-            button5.UseVisualStyleBackColor = true;
+            button5.Text = "Guardar";
+            button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
             // groupBox1
@@ -182,13 +185,14 @@
             // 
             // button3
             // 
+            button3.BackColor = SystemColors.ActiveCaption;
             button3.Font = new Font("Segoe UI", 10F);
             button3.Location = new Point(1044, 38);
             button3.Name = "button3";
             button3.Size = new Size(82, 26);
             button3.TabIndex = 7;
             button3.Text = "Eliminar";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             // 
             // groupBox2
             // 
@@ -196,7 +200,6 @@
             groupBox2.Controls.Add(dateTimePicker2);
             groupBox2.Controls.Add(label1);
             groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(button6);
             groupBox2.Controls.Add(dateTimePicker1);
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(comboBox1);
@@ -291,19 +294,6 @@
             label6.Size = new Size(39, 19);
             label6.TabIndex = 29;
             label6.Text = "Hora";
-            // 
-            // button6
-            // 
-            button6.BackColor = SystemColors.ActiveCaption;
-            button6.Cursor = Cursors.Hand;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.ForeColor = SystemColors.ActiveCaptionText;
-            button6.Location = new Point(218, 24);
-            button6.Name = "button6";
-            button6.Size = new Size(81, 25);
-            button6.TabIndex = 18;
-            button6.Text = "Buscar";
-            button6.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker1
             // 
@@ -604,7 +594,6 @@
         private ComboBox comboBox2;
         private TextBox textBox2;
         private DateTimePicker dateTimePicker2;
-        private Button button6;
         private DateTimePicker dateTimePicker1;
         private ComboBox comboBox1;
         private TextBox textBox3;
