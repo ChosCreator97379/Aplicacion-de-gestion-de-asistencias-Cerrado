@@ -33,15 +33,16 @@
             registroDeEntradasYSalidasToolStripMenuItem = new ToolStripMenuItem();
             listaDeAsistenciasToolStripMenuItem = new ToolStripMenuItem();
             administracionToolStripMenuItem = new ToolStripMenuItem();
+            listaDeAsistenciaToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            listaDeAsistenciaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = SystemColors.ActiveBorder;
             menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, administracionToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
@@ -76,25 +77,6 @@
             administracionToolStripMenuItem.Size = new Size(95, 20);
             administracionToolStripMenuItem.Text = "Administrador";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(454, 115);
-            label1.Name = "label1";
-            label1.Size = new Size(515, 32);
-            label1.TabIndex = 2;
-            label1.Text = "Bienvenido al Software de Administacion";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.yu;
-            pictureBox1.Location = new Point(454, 175);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(520, 523);
-            pictureBox1.TabIndex = 3;
-            pictureBox1.TabStop = false;
-            // 
             // listaDeAsistenciaToolStripMenuItem
             // 
             listaDeAsistenciaToolStripMenuItem.Name = "listaDeAsistenciaToolStripMenuItem";
@@ -102,10 +84,32 @@
             listaDeAsistenciaToolStripMenuItem.Text = "Lista de Asistencia";
             listaDeAsistenciaToolStripMenuItem.Click += listaDeAsistenciaToolStripMenuItem_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Times New Roman", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(245, 121);
+            label1.Name = "label1";
+            label1.Size = new Size(862, 55);
+            label1.TabIndex = 2;
+            label1.Text = "Bienvenido al Software de Administacion";
+            label1.Click += label1_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.yu;
+            pictureBox1.Location = new Point(546, 244);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(319, 307);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
+            // 
             // Bienvenida
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlDarkDark;
             ClientSize = new Size(1370, 749);
             Controls.Add(pictureBox1);
             Controls.Add(label1);

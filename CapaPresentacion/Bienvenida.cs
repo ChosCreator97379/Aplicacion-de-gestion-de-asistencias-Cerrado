@@ -23,5 +23,10 @@ namespace CapaPresentacion
             Administrador Administrador_E_S = new Administrador();
             Administrador_E_S.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
