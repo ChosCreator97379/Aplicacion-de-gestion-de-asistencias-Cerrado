@@ -33,10 +33,9 @@
             registroDeEntradasYSalidasToolStripMenuItem = new ToolStripMenuItem();
             listaDeAsistenciasToolStripMenuItem = new ToolStripMenuItem();
             administracionToolStripMenuItem = new ToolStripMenuItem();
-            listaDeAsistenciaToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            administradorToolStripMenuItem = new ToolStripMenuItem();
+            listaDeAsistenciaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -77,13 +76,6 @@
             administracionToolStripMenuItem.Size = new Size(95, 20);
             administracionToolStripMenuItem.Text = "Administrador";
             // 
-            // listaDeAsistenciaToolStripMenuItem
-            // 
-            listaDeAsistenciaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { administradorToolStripMenuItem });
-            listaDeAsistenciaToolStripMenuItem.Name = "listaDeAsistenciaToolStripMenuItem";
-            listaDeAsistenciaToolStripMenuItem.Size = new Size(180, 22);
-            listaDeAsistenciaToolStripMenuItem.Text = "Lista de Asistencia";
-            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -103,11 +95,12 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
-            // administradorToolStripMenuItem
+            // listaDeAsistenciaToolStripMenuItem
             // 
-            administradorToolStripMenuItem.Name = "administradorToolStripMenuItem";
-            administradorToolStripMenuItem.Size = new Size(180, 22);
-            administradorToolStripMenuItem.Text = "Administrador";
+            listaDeAsistenciaToolStripMenuItem.Name = "listaDeAsistenciaToolStripMenuItem";
+            listaDeAsistenciaToolStripMenuItem.Size = new Size(180, 22);
+            listaDeAsistenciaToolStripMenuItem.Text = "Lista de Asistencia";
+            listaDeAsistenciaToolStripMenuItem.Click += listaDeAsistenciaToolStripMenuItem_Click;
             // 
             // Bienvenida
             // 
@@ -138,6 +131,5 @@
         private PictureBox pictureBox1;
         private ToolStripMenuItem administracionToolStripMenuItem;
         private ToolStripMenuItem listaDeAsistenciaToolStripMenuItem;
-        private ToolStripMenuItem administradorToolStripMenuItem;
     }
 }
