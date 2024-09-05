@@ -28,26 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             menuStrip1 = new MenuStrip();
             archivoToolStripMenuItem = new ToolStripMenuItem();
             registroDeEntradasYSalidasToolStripMenuItem = new ToolStripMenuItem();
             listaDeAsistenciasToolStripMenuItem = new ToolStripMenuItem();
+            administracionToolStripMenuItem = new ToolStripMenuItem();
+            listaDeAsistenciaToolStripMenuItem = new ToolStripMenuItem();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            administradorToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(377, 125);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, administracionToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1370, 24);
@@ -74,12 +70,52 @@
             listaDeAsistenciasToolStripMenuItem.Size = new Size(229, 22);
             listaDeAsistenciasToolStripMenuItem.Text = "Lista de Asistencias";
             // 
+            // administracionToolStripMenuItem
+            // 
+            administracionToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { listaDeAsistenciaToolStripMenuItem });
+            administracionToolStripMenuItem.Name = "administracionToolStripMenuItem";
+            administracionToolStripMenuItem.Size = new Size(95, 20);
+            administracionToolStripMenuItem.Text = "Administrador";
+            // 
+            // listaDeAsistenciaToolStripMenuItem
+            // 
+            listaDeAsistenciaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { administradorToolStripMenuItem });
+            listaDeAsistenciaToolStripMenuItem.Name = "listaDeAsistenciaToolStripMenuItem";
+            listaDeAsistenciaToolStripMenuItem.Size = new Size(180, 22);
+            listaDeAsistenciaToolStripMenuItem.Text = "Lista de Asistencia";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Times New Roman", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(454, 115);
+            label1.Name = "label1";
+            label1.Size = new Size(515, 32);
+            label1.TabIndex = 2;
+            label1.Text = "Bienvenido al Software de Administacion";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.yu;
+            pictureBox1.Location = new Point(454, 175);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(520, 523);
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
+            // 
+            // administradorToolStripMenuItem
+            // 
+            administradorToolStripMenuItem.Name = "administradorToolStripMenuItem";
+            administradorToolStripMenuItem.Size = new Size(180, 22);
+            administradorToolStripMenuItem.Text = "Administrador";
+            // 
             // Bienvenida
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1370, 749);
-            Controls.Add(button1);
+            Controls.Add(pictureBox1);
+            Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Bienvenida";
@@ -88,16 +124,20 @@
             Load += Bienvenida_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Button button1;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem archivoToolStripMenuItem;
         private ToolStripMenuItem registroDeEntradasYSalidasToolStripMenuItem;
         private ToolStripMenuItem listaDeAsistenciasToolStripMenuItem;
+        private Label label1;
+        private PictureBox pictureBox1;
+        private ToolStripMenuItem administracionToolStripMenuItem;
+        private ToolStripMenuItem listaDeAsistenciaToolStripMenuItem;
+        private ToolStripMenuItem administradorToolStripMenuItem;
     }
 }
