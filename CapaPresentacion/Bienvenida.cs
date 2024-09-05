@@ -20,13 +20,32 @@ namespace CapaPresentacion
 
         private void listaDeAsistenciaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Administrador Administrador_E_S = new Administrador();
-            Administrador_E_S.Show();
+            
+            LoginFrom loginForm = new LoginFrom();
+
+            
+            if (loginForm.ShowDialog() == DialogResult.OK)
+            {
+               
+                Administrador administrador = new Administrador();
+                administrador.Show(); 
+            }
+            else
+            {
+                
+                MessageBox.Show("Acceso denegado.");
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void administracionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        
         }
     }
 }

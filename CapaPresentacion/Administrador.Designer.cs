@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             Label label1;
-            Label label6;
             Label label2;
             Label label3;
             Label label5;
@@ -54,10 +53,6 @@
             groupBox3 = new GroupBox();
             comboBox2 = new ComboBox();
             textBox2 = new TextBox();
-            dateTimePicker2 = new DateTimePicker();
-            button6 = new Button();
-            dateTimePicker1 = new DateTimePicker();
-            comboBox1 = new ComboBox();
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             textBox8 = new TextBox();
@@ -72,7 +67,6 @@
             textBox10 = new TextBox();
             textBox11 = new TextBox();
             label1 = new Label();
-            label6 = new Label();
             label2 = new Label();
             label3 = new Label();
             label5 = new Label();
@@ -125,43 +119,47 @@
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ActiveCaption;
             button1.Font = new Font("Segoe UI", 10F);
             button1.Location = new Point(886, 36);
             button1.Name = "button1";
             button1.Size = new Size(82, 28);
             button1.TabIndex = 4;
             button1.Text = "Buscar";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ActiveCaption;
             button2.Font = new Font("Segoe UI", 10F);
             button2.Location = new Point(1200, 37);
             button2.Name = "button2";
             button2.Size = new Size(82, 26);
             button2.TabIndex = 6;
             button2.Text = "Cerrar";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            button4.BackColor = SystemColors.ActiveCaption;
             button4.Font = new Font("Segoe UI", 10F);
-            button4.Location = new Point(550, 42);
+            button4.Location = new Point(552, 27);
             button4.Name = "button4";
             button4.Size = new Size(82, 26);
             button4.TabIndex = 8;
             button4.Text = "Añadir";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
+            button5.BackColor = SystemColors.ActiveCaption;
             button5.Font = new Font("Segoe UI", 10F);
-            button5.Location = new Point(534, 42);
+            button5.Location = new Point(534, 27);
             button5.Name = "button5";
             button5.Size = new Size(82, 26);
             button5.TabIndex = 9;
-            button5.Text = "Editar";
-            button5.UseVisualStyleBackColor = true;
+            button5.Text = "Guardar";
+            button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
             // groupBox1
@@ -182,24 +180,20 @@
             // 
             // button3
             // 
+            button3.BackColor = SystemColors.ActiveCaption;
             button3.Font = new Font("Segoe UI", 10F);
             button3.Location = new Point(1044, 38);
             button3.Name = "button3";
             button3.Size = new Size(82, 26);
             button3.TabIndex = 7;
             button3.Text = "Eliminar";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             // 
             // groupBox2
             // 
             groupBox2.Controls.Add(textBox2);
-            groupBox2.Controls.Add(dateTimePicker2);
             groupBox2.Controls.Add(label1);
-            groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(button6);
-            groupBox2.Controls.Add(dateTimePicker1);
             groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(comboBox1);
             groupBox2.Controls.Add(textBox3);
             groupBox2.Controls.Add(textBox4);
             groupBox2.Controls.Add(label3);
@@ -260,14 +254,6 @@
             textBox2.Size = new Size(140, 25);
             textBox2.TabIndex = 17;
             // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Format = DateTimePickerFormat.Time;
-            dateTimePicker2.Location = new Point(421, 149);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(66, 25);
-            dateTimePicker2.TabIndex = 30;
-            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -280,40 +266,6 @@
             label1.TabIndex = 16;
             label1.Text = "ID";
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = SystemColors.ButtonHighlight;
-            label6.Font = new Font("Segoe UI", 10F);
-            label6.ForeColor = SystemColors.ActiveCaptionText;
-            label6.Location = new Point(376, 150);
-            label6.Name = "label6";
-            label6.Size = new Size(39, 19);
-            label6.TabIndex = 29;
-            label6.Text = "Hora";
-            // 
-            // button6
-            // 
-            button6.BackColor = SystemColors.ActiveCaption;
-            button6.Cursor = Cursors.Hand;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.ForeColor = SystemColors.ActiveCaptionText;
-            button6.Location = new Point(218, 24);
-            button6.Name = "button6";
-            button6.Size = new Size(81, 25);
-            button6.TabIndex = 18;
-            button6.Text = "Buscar";
-            button6.UseVisualStyleBackColor = false;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.CalendarTitleBackColor = SystemColors.ControlText;
-            dateTimePicker1.CalendarTitleForeColor = SystemColors.ActiveCaption;
-            dateTimePicker1.Location = new Point(170, 149);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 25);
-            dateTimePicker1.TabIndex = 28;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -325,17 +277,6 @@
             label2.Size = new Size(65, 19);
             label2.TabIndex = 19;
             label2.Text = "Nombres";
-            // 
-            // comboBox1
-            // 
-            comboBox1.BackColor = SystemColors.InactiveCaption;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Entrada", "Salida" });
-            comboBox1.Location = new Point(43, 149);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 25);
-            comboBox1.TabIndex = 27;
-            comboBox1.Text = "Tipo de Registro";
             // 
             // textBox3
             // 
@@ -603,10 +544,6 @@
         private Button button3;
         private ComboBox comboBox2;
         private TextBox textBox2;
-        private DateTimePicker dateTimePicker2;
-        private Button button6;
-        private DateTimePicker dateTimePicker1;
-        private ComboBox comboBox1;
         private TextBox textBox3;
         private TextBox textBox4;
         private TextBox textBox8;
