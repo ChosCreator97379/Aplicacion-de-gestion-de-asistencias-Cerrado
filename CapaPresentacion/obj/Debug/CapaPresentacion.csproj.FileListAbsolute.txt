@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.Administrador.resources
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.Bienvenida.resources
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.Registro_E_S.resources
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources

@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\USER\source\repos\WindowsFormsApp1\CapaNegocio\obj\Debug\CapaNegocio.pdb
