@@ -1,3 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace CapaPresentacion
 {
     public partial class Bienvenida : Form
@@ -7,45 +17,26 @@ namespace CapaPresentacion
             InitializeComponent();
         }
 
-        private void Bienvenida_Load(object sender, EventArgs e)
+        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void registroDeEntradasYSalidasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registroDeEntradaYSalidaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Registro_E_S Registro_E_S = new Registro_E_S();
             Registro_E_S.Show();
         }
 
-        private void listaDeAsistenciaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void administradorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
-            LoginFrom loginForm = new LoginFrom();
-
-            
-            if (loginForm.ShowDialog() == DialogResult.OK)
-            {
-               
-                Administrador administrador = new Administrador();
-                administrador.Show(); 
-            }
-            else
-            {
-                
-                MessageBox.Show("Acceso denegado.");
-            }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void administracionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        
+            Administrador Administrador = new Administrador();
+            Administrador.Show();
         }
     }
 }

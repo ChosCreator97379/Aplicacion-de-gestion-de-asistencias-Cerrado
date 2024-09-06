@@ -63,9 +63,9 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap yu {
+        internal static System.Drawing.Bitmap icone_x_noir {
             get {
-                object obj = ResourceManager.GetObject("yu", resourceCulture);
+                object obj = ResourceManager.GetObject("icone-x-noir", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

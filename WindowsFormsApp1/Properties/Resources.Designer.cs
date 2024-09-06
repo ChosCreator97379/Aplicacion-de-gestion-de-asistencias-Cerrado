@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Aplicacion_de_gestion_de_asistencias.Properties
+namespace WindowsFormsApp1.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Aplicacion_de_gestion_de_asistencias.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Aplicacion_de_gestion_de_asistencias.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WindowsFormsApp1.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -28,436 +28,438 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Label label1;
-            Label label2;
-            Label label3;
-            Label label4;
-            Label label5;
-            Label label6;
-            menuStrip1 = new MenuStrip();
-            gestionPersonalToolStripMenuItem = new ToolStripMenuItem();
-            cerrarToolStripMenuItem = new ToolStripMenuItem();
-            cerrarToolStripMenuItem1 = new ToolStripMenuItem();
-            textBox1 = new TextBox();
-            button1 = new Button();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            comboBox1 = new ComboBox();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
-            groupBox1 = new GroupBox();
-            button3 = new Button();
-            button2 = new Button();
-            groupBox2 = new GroupBox();
-            button4 = new Button();
-            textBox6 = new TextBox();
-            comboBox2 = new ComboBox();
-            dataGridView1 = new DataGridView();
-            groupBox3 = new GroupBox();
-            button6 = new Button();
-            button5 = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            menuStrip1.SuspendLayout();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            groupBox3.SuspendLayout();
-            SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = SystemColors.ActiveCaption;
-            label1.Font = new Font("Segoe UI", 10F);
-            label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(33, 52);
-            label1.Name = "label1";
-            label1.Size = new Size(23, 19);
-            label1.TabIndex = 1;
-            label1.Text = "ID";
-            label1.Click += label1_Click;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = SystemColors.ActiveCaption;
-            label2.Font = new Font("Segoe UI", 10F);
-            label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(33, 92);
-            label2.Name = "label2";
-            label2.Size = new Size(65, 19);
-            label2.TabIndex = 4;
-            label2.Text = "Nombres";
-            label2.Click += label2_Click;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = SystemColors.ActiveCaption;
-            label3.Font = new Font("Segoe UI", 10F);
-            label3.ForeColor = SystemColors.ActiveCaptionText;
-            label3.Location = new Point(250, 92);
-            label3.Name = "label3";
-            label3.Size = new Size(64, 19);
-            label3.TabIndex = 6;
-            label3.Text = "Apellidos";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.BackColor = SystemColors.ActiveCaption;
-            label4.Font = new Font("Segoe UI", 10F);
-            label4.ForeColor = SystemColors.ActiveCaptionText;
-            label4.Location = new Point(33, 133);
-            label4.Name = "label4";
-            label4.Size = new Size(98, 19);
-            label4.TabIndex = 8;
-            label4.Text = "Departamento";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = SystemColors.ActiveCaption;
-            label5.Font = new Font("Segoe UI", 10F);
-            label5.ForeColor = SystemColors.ActiveCaptionText;
-            label5.Location = new Point(283, 132);
-            label5.Name = "label5";
-            label5.Size = new Size(37, 19);
-            label5.TabIndex = 10;
-            label5.Text = "Area";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = SystemColors.ButtonHighlight;
-            label6.Font = new Font("Segoe UI", 10F);
-            label6.ForeColor = SystemColors.ActiveCaptionText;
-            label6.Location = new Point(366, 175);
-            label6.Name = "label6";
-            label6.Size = new Size(39, 19);
-            label6.TabIndex = 14;
-            label6.Text = "Hora";
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.menuStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.BackColor = SystemColors.AppWorkspace;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { gestionPersonalToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1370, 24);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.archivoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1370, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // gestionPersonalToolStripMenuItem
+            // archivoToolStripMenuItem
             // 
-            gestionPersonalToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cerrarToolStripMenuItem, cerrarToolStripMenuItem1 });
-            gestionPersonalToolStripMenuItem.Name = "gestionPersonalToolStripMenuItem";
-            gestionPersonalToolStripMenuItem.Size = new Size(60, 20);
-            gestionPersonalToolStripMenuItem.Text = "Archivo";
-            gestionPersonalToolStripMenuItem.Click += gestionPersonalToolStripMenuItem_Click;
+            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inicioToolStripMenuItem,
+            this.cerrarToolStripMenuItem});
+            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.archivoToolStripMenuItem.Text = "Archivo";
+            // 
+            // inicioToolStripMenuItem
+            // 
+            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.inicioToolStripMenuItem.Text = "Inicio";
             // 
             // cerrarToolStripMenuItem
             // 
-            cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
-            cerrarToolStripMenuItem.Size = new Size(106, 22);
-            cerrarToolStripMenuItem.Text = "Inicio";
-            // 
-            // cerrarToolStripMenuItem1
-            // 
-            cerrarToolStripMenuItem1.Name = "cerrarToolStripMenuItem1";
-            cerrarToolStripMenuItem1.Size = new Size(106, 22);
-            cerrarToolStripMenuItem1.Text = "Cerrar";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(62, 49);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(140, 23);
-            textBox1.TabIndex = 2;
-            textBox1.TextChanged += textBox1_TextChanged;
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.ActiveCaption;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(208, 50);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 3;
-            button1.Text = "Buscar";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(104, 91);
-            textBox2.Name = "textBox2";
-            textBox2.ReadOnly = true;
-            textBox2.Size = new Size(140, 23);
-            textBox2.TabIndex = 5;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(320, 91);
-            textBox3.Name = "textBox3";
-            textBox3.ReadOnly = true;
-            textBox3.Size = new Size(140, 23);
-            textBox3.TabIndex = 7;
-            textBox3.TextChanged += textBox3_TextChanged;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(137, 132);
-            textBox4.Name = "textBox4";
-            textBox4.ReadOnly = true;
-            textBox4.Size = new Size(140, 23);
-            textBox4.TabIndex = 9;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(326, 131);
-            textBox5.Name = "textBox5";
-            textBox5.ReadOnly = true;
-            textBox5.Size = new Size(140, 23);
-            textBox5.TabIndex = 11;
-            // 
-            // comboBox1
-            // 
-            comboBox1.BackColor = SystemColors.InactiveCaption;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Entrada", "Salida" });
-            comboBox1.Location = new Point(33, 174);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 12;
-            comboBox1.Text = "Tipo de Registro";
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.CalendarTitleBackColor = SystemColors.ControlText;
-            dateTimePicker1.CalendarTitleForeColor = SystemColors.ActiveCaption;
-            dateTimePicker1.Location = new Point(160, 174);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 13;
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Format = DateTimePickerFormat.Time;
-            dateTimePicker2.Location = new Point(411, 174);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(66, 23);
-            dateTimePicker2.TabIndex = 15;
-            dateTimePicker2.ValueChanged += dateTimePicker2_ValueChanged;
+            this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
+            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cerrarToolStripMenuItem.Text = "Cerrar";
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(dateTimePicker2);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(dateTimePicker1);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(comboBox1);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(textBox5);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(textBox3);
-            groupBox1.Controls.Add(textBox4);
-            groupBox1.Controls.Add(label4);
-            groupBox1.ForeColor = SystemColors.ButtonHighlight;
-            groupBox1.Location = new Point(12, 56);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(513, 281);
-            groupBox1.TabIndex = 16;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Registro";
-            groupBox1.Enter += groupBox1_Enter;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Cyan;
-            button3.Cursor = Cursors.Hand;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.ForeColor = SystemColors.ActiveCaptionText;
-            button3.Location = new Point(114, 217);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 17;
-            button3.Text = "Nuevo";
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Lime;
-            button2.BackgroundImageLayout = ImageLayout.Center;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = SystemColors.ActiveCaptionText;
-            button2.Location = new Point(33, 217);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 16;
-            button2.Text = "Guardar";
-            button2.UseVisualStyleBackColor = false;
+            this.groupBox1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.groupBox1.Controls.Add(this.dateTimePicker2);
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.groupBox1.Location = new System.Drawing.Point(12, 56);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(513, 281);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Registro";
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(button4);
-            groupBox2.Controls.Add(textBox6);
-            groupBox2.Controls.Add(comboBox2);
-            groupBox2.Controls.Add(dataGridView1);
-            groupBox2.ForeColor = SystemColors.ButtonHighlight;
-            groupBox2.Location = new Point(12, 343);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1346, 346);
-            groupBox2.TabIndex = 17;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Lista de Asistencias";
-            // 
-            // button4
-            // 
-            button4.BackColor = SystemColors.ActiveCaption;
-            button4.Cursor = Cursors.Hand;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.ForeColor = SystemColors.ActiveCaptionText;
-            button4.Location = new Point(806, 35);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 18;
-            button4.Text = "Buscar";
-            button4.UseVisualStyleBackColor = false;
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(485, 36);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(315, 23);
-            textBox6.TabIndex = 18;
-            // 
-            // comboBox2
-            // 
-            comboBox2.BackColor = SystemColors.InactiveCaption;
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "ID", "Nombre", "Hora de Entrada", "Hora de Salida", "Fecha" });
-            comboBox2.Location = new Point(358, 35);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 23);
-            comboBox2.TabIndex = 18;
-            comboBox2.Text = "Tipo de Busqueda";
-            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(18, 76);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(1310, 252);
-            dataGridView1.TabIndex = 0;
+            this.groupBox2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.groupBox2.Location = new System.Drawing.Point(12, 343);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1346, 346);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Registro de Asistencias";
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(button6);
-            groupBox3.Controls.Add(button5);
-            groupBox3.ForeColor = SystemColors.ButtonHighlight;
-            groupBox3.Location = new Point(545, 56);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(813, 281);
-            groupBox3.TabIndex = 18;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Opciones";
+            this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.groupBox3.Controls.Add(this.button6);
+            this.groupBox3.Controls.Add(this.button5);
+            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.groupBox3.Location = new System.Drawing.Point(545, 56);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(813, 281);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Opciones";
             // 
-            // button6
+            // label1
             // 
-            button6.BackColor = Color.Firebrick;
-            button6.Cursor = Cursors.Hand;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.ForeColor = SystemColors.ActiveCaptionText;
-            button6.Location = new Point(167, 100);
-            button6.Name = "button6";
-            button6.Size = new Size(100, 84);
-            button6.TabIndex = 19;
-            button6.Text = "Eliminar";
-            button6.UseVisualStyleBackColor = false;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label1.Location = new System.Drawing.Point(33, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(22, 17);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ID";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label2.Location = new System.Drawing.Point(33, 92);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 17);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Nombres";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label3.Location = new System.Drawing.Point(250, 92);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 17);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Apellidos";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label4.Location = new System.Drawing.Point(33, 133);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(97, 17);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Departamento";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label5.Location = new System.Drawing.Point(283, 132);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(36, 17);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Area";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(62, 49);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(140, 25);
+            this.textBox1.TabIndex = 5;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(137, 132);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(140, 25);
+            this.textBox2.TabIndex = 6;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(104, 91);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(140, 25);
+            this.textBox3.TabIndex = 7;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(326, 131);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(140, 25);
+            this.textBox4.TabIndex = 8;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(320, 91);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(140, 25);
+            this.textBox5.TabIndex = 9;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Yellow;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button1.Location = new System.Drawing.Point(208, 50);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Buscar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Lime;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button2.Location = new System.Drawing.Point(33, 217);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Guardar";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button3.Location = new System.Drawing.Point(114, 217);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Nuevo";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Entrada",
+            "Salida"});
+            this.comboBox1.Location = new System.Drawing.Point(33, 173);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(136, 25);
+            this.comboBox1.TabIndex = 13;
+            this.comboBox1.Text = "Tipo de Registro";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(175, 173);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
+            this.dateTimePicker1.TabIndex = 14;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker2.Location = new System.Drawing.Point(381, 173);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(94, 25);
+            this.dateTimePicker2.TabIndex = 15;
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(18, 76);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1310, 252);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "ID",
+            "Nombre",
+            "Hora de Entrada",
+            "Hora de Salida",
+            "Fecha"});
+            this.comboBox2.Location = new System.Drawing.Point(391, 35);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(136, 25);
+            this.comboBox2.TabIndex = 16;
+            this.comboBox2.Text = "Tipo de Busqueda";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(533, 35);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(300, 25);
+            this.textBox6.TabIndex = 16;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button4.Location = new System.Drawing.Point(839, 35);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Buscar";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
-            button5.BackColor = SystemColors.ActiveCaption;
-            button5.Cursor = Cursors.Hand;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.ForeColor = SystemColors.ActiveCaptionText;
-            button5.Location = new Point(44, 99);
-            button5.Name = "button5";
-            button5.Size = new Size(100, 84);
-            button5.TabIndex = 18;
-            button5.Text = "Editar";
-            button5.UseVisualStyleBackColor = false;
+            this.button5.BackColor = System.Drawing.Color.Red;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button5.Location = new System.Drawing.Point(219, 88);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(116, 106);
+            this.button5.TabIndex = 16;
+            this.button5.Text = "Eliminar";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button6.Location = new System.Drawing.Point(83, 88);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(119, 106);
+            this.button6.TabIndex = 17;
+            this.button6.Text = "Editar";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // Registro_E_S
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlDarkDark;
-            ClientSize = new Size(1370, 749);
-            Controls.Add(groupBox3);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            Controls.Add(menuStrip1);
-            MainMenuStrip = menuStrip1;
-            Name = "Registro_E_S";
-            Text = "Registro_E_S";
-            WindowState = FormWindowState.Maximized;
-            Load += Registro_E_S_Load;
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            groupBox3.ResumeLayout(false);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Registro_E_S";
+            this.Text = "Registro_E_S";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem gestionPersonalToolStripMenuItem;
-        private Label label1;
-        private TextBox textBox1;
-        private Button button1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private ComboBox comboBox1;
-        private DateTimePicker dateTimePicker1;
-        private DateTimePicker dateTimePicker2;
-        private GroupBox groupBox1;
-        private Button button3;
-        private Button button2;
-        private GroupBox groupBox2;
-        private DataGridView dataGridView1;
-        private GroupBox groupBox3;
-        private Button button4;
-        private TextBox textBox6;
-        private ComboBox comboBox2;
-        private Button button6;
-        private Button button5;
-        private ToolStripMenuItem cerrarToolStripMenuItem;
-        private ToolStripMenuItem cerrarToolStripMenuItem1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
     }
 }

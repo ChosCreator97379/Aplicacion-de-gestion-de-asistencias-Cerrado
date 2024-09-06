@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Aplicacion_de_gestion_de_asistencias.Properties
+namespace WindowsFormsApp1.Properties
 {
 
 

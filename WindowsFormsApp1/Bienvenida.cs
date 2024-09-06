@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Aplicacion_de_gestion_de_asistencias
+namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Bienvenida : Form
     {
-        public Form1()
+        public Bienvenida()
         {
             InitializeComponent();
         }
