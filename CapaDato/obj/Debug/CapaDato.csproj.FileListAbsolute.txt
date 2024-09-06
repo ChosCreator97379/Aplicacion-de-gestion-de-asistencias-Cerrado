@@ -4,3 +4,9 @@ C:\Users\USER\source\repos\WindowsFormsApp1\CapaDato\obj\Debug\CapaDato.csproj.A
 C:\Users\USER\source\repos\WindowsFormsApp1\CapaDato\obj\Debug\CapaDato.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\WindowsFormsApp1\CapaDato\obj\Debug\CapaDato.dll
 C:\Users\USER\source\repos\WindowsFormsApp1\CapaDato\obj\Debug\CapaDato.pdb
+C:\Users\USER\Documents\GitHub\Aplicacion-de-gestion-de-asistencias\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\USER\Documents\GitHub\Aplicacion-de-gestion-de-asistencias\CapaDato\bin\Debug\CapaDato.pdb
+C:\Users\USER\Documents\GitHub\Aplicacion-de-gestion-de-asistencias\CapaDato\obj\Debug\CapaDato.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\GitHub\Aplicacion-de-gestion-de-asistencias\CapaDato\obj\Debug\CapaDato.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\Aplicacion-de-gestion-de-asistencias\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\USER\Documents\GitHub\Aplicacion-de-gestion-de-asistencias\CapaDato\obj\Debug\CapaDato.pdb
