@@ -35,8 +35,21 @@ namespace CapaPresentacion
 
         private void administradorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Administrador Administrador = new Administrador();
-            Administrador.Show();
+            // Crear una instancia del formulario de login
+            Login loginForm = new Login();
+
+            // Mostrar el formulario de login como un cuadro de diálogo modal
+            if (loginForm.ShowDialog() == DialogResult.OK)
+            {
+                // Si el acceso fue exitoso, abrir la ventana Administrador
+                Administrador administradorForm = new Administrador();
+                administradorForm.Show(); // Mostrar la ventana de lista de asistencia
+            }
+            else
+            {
+                // Si el acceso fue denegado o cancelado
+                MessageBox.Show("Acceso denegado.");
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
