@@ -52,9 +52,7 @@
     <Compile Include="Administrador.Designer.cs">
       <DependentUpon>Administrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bienvenida.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Bienvenida.cs" />
     <Compile Include="Bienvenida.Designer.cs">
       <DependentUpon>Bienvenida.cs</DependentUpon>
     </Compile>

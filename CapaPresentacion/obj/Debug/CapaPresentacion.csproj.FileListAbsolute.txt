@@ -11,3 +11,5 @@ C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\bin\Debug\CapaPrese
 C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\USER\source\repos\WindowsFormsApp1\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\Josue Caleb\Documents\GitHub\Aplicacion-de-gestion-de-asistencias\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Josue Caleb\Documents\GitHub\Aplicacion-de-gestion-de-asistencias\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

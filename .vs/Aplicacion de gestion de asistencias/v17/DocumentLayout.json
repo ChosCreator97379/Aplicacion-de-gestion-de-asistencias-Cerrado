@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\",
+  "WorkspaceRootPath": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3DD2AB8-E31E-4444-A461-6A2502D826BD}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\user\\documents\\github\\aplicacion-de-gestion-de-asistencias\\capapresentacion\\bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3DD2AB8-E31E-4444-A461-6A2502D826BD}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AF24B77F-A99B-43CD-A714-E12572C15AE1}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\capapresentacion\\registro_e_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF24B77F-A99B-43CD-A714-E12572C15AE1}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\registro_e_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF24B77F-A99B-43CD-A714-E12572C15AE1}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\capapresentacion\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF24B77F-A99B-43CD-A714-E12572C15AE1}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF24B77F-A99B-43CD-A714-E12572C15AE1}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\josue caleb\\documents\\github\\aplicacion-de-gestion-de-asistencias\\capapresentacion\\bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF24B77F-A99B-43CD-A714-E12572C15AE1}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF24B77F-A99B-43CD-A714-E12572C15AE1}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\capapresentacion\\bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF24B77F-A99B-43CD-A714-E12572C15AE1}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bienvenida.cs",
+              "DocumentMoniker": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Bienvenida.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Bienvenida.cs",
+              "ToolTip": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Bienvenida.cs",
+              "RelativeToolTip": "CapaPresentacion\\Bienvenida.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T20:53:24.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bienvenida.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Bienvenida.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Bienvenida.cs",
+              "ToolTip": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Bienvenida.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Bienvenida.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T19:28:49.075Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Bienvenida.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Bienvenida.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Bienvenida.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Bienvenida.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\Bienvenida.cs [Dise\u00F1o]",
+              "Title": "Registro_E_S.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Registro_E_S.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Registro_E_S.cs",
+              "ToolTip": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Registro_E_S.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Registro_E_S.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T03:35:17.351Z",
+              "WhenOpened": "2024-09-05T02:06:47.902Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Administrador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Administrador.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Administrador.cs",
+              "ToolTip": "C:\\Users\\Josue Caleb\\Documents\\GitHub\\Aplicacion-de-gestion-de-asistencias\\CapaPresentacion\\Administrador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Administrador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:59:19.267Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
