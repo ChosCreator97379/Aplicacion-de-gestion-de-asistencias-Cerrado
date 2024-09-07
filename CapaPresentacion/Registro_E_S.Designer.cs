@@ -33,12 +33,12 @@
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Tiempo = new System.Windows.Forms.DateTimePicker();
+            this.Fecha = new System.Windows.Forms.DateTimePicker();
+            this.txtTipoRegistro = new System.Windows.Forms.ComboBox();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtArea = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -52,11 +52,11 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnBuscarPorTipo = new System.Windows.Forms.Button();
             this.txtTipoDeBusqueda = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.TxtTipoBusqueda = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnEditar = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -99,12 +99,12 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.groupBox1.Controls.Add(this.dateTimePicker2);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.Tiempo);
+            this.groupBox1.Controls.Add(this.Fecha);
+            this.groupBox1.Controls.Add(this.txtTipoRegistro);
             this.groupBox1.Controls.Add(this.btnNuevo);
             this.groupBox1.Controls.Add(this.btnGuardar);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnBuscar);
             this.groupBox1.Controls.Add(this.txtApellido);
             this.groupBox1.Controls.Add(this.txtArea);
             this.groupBox1.Controls.Add(this.txtNombre);
@@ -124,34 +124,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registro";
             // 
-            // dateTimePicker2
+            // Tiempo
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(381, 173);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(94, 25);
-            this.dateTimePicker2.TabIndex = 15;
-            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            this.Tiempo.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Tiempo.Location = new System.Drawing.Point(381, 173);
+            this.Tiempo.Name = "Tiempo";
+            this.Tiempo.Size = new System.Drawing.Size(94, 25);
+            this.Tiempo.TabIndex = 15;
+            this.Tiempo.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
-            // dateTimePicker1
+            // Fecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(175, 173);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
-            this.dateTimePicker1.TabIndex = 14;
+            this.Fecha.Location = new System.Drawing.Point(175, 173);
+            this.Fecha.Name = "Fecha";
+            this.Fecha.Size = new System.Drawing.Size(200, 25);
+            this.Fecha.TabIndex = 14;
             // 
-            // comboBox1
+            // txtTipoRegistro
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.txtTipoRegistro.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtTipoRegistro.FormattingEnabled = true;
+            this.txtTipoRegistro.Items.AddRange(new object[] {
             "Entrada",
             "Salida"});
-            this.comboBox1.Location = new System.Drawing.Point(33, 173);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(136, 25);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "Tipo de Registro";
+            this.txtTipoRegistro.Location = new System.Drawing.Point(33, 173);
+            this.txtTipoRegistro.Name = "txtTipoRegistro";
+            this.txtTipoRegistro.Size = new System.Drawing.Size(136, 25);
+            this.txtTipoRegistro.TabIndex = 13;
+            this.txtTipoRegistro.Text = "Tipo de Registro";
             // 
             // btnNuevo
             // 
@@ -181,19 +181,19 @@
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnBuscar
             // 
-            this.button1.BackColor = System.Drawing.Color.Yellow;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button1.Location = new System.Drawing.Point(208, 50);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBuscar.BackColor = System.Drawing.Color.Yellow;
+            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnBuscar.Location = new System.Drawing.Point(208, 50);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.TabIndex = 10;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // txtApellido
             // 
@@ -304,7 +304,7 @@
             this.groupBox2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.groupBox2.Controls.Add(this.btnBuscarPorTipo);
             this.groupBox2.Controls.Add(this.txtTipoDeBusqueda);
-            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.TxtTipoBusqueda);
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.HighlightText;
@@ -337,21 +337,21 @@
             this.txtTipoDeBusqueda.Size = new System.Drawing.Size(300, 25);
             this.txtTipoDeBusqueda.TabIndex = 16;
             // 
-            // comboBox2
+            // TxtTipoBusqueda
             // 
-            this.comboBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.TxtTipoBusqueda.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TxtTipoBusqueda.FormattingEnabled = true;
+            this.TxtTipoBusqueda.Items.AddRange(new object[] {
             "ID",
             "Nombre",
             "Hora de Entrada",
             "Hora de Salida",
             "Fecha"});
-            this.comboBox2.Location = new System.Drawing.Point(391, 35);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(136, 25);
-            this.comboBox2.TabIndex = 16;
-            this.comboBox2.Text = "Tipo de Busqueda";
+            this.TxtTipoBusqueda.Location = new System.Drawing.Point(391, 35);
+            this.TxtTipoBusqueda.Name = "TxtTipoBusqueda";
+            this.TxtTipoBusqueda.Size = new System.Drawing.Size(136, 25);
+            this.TxtTipoBusqueda.TabIndex = 16;
+            this.TxtTipoBusqueda.Text = "Tipo de Busqueda";
             // 
             // dataGridView1
             // 
@@ -365,7 +365,7 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
             this.groupBox3.Controls.Add(this.btnEditar);
-            this.groupBox3.Controls.Add(this.button5);
+            this.groupBox3.Controls.Add(this.btnEliminar);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.groupBox3.Location = new System.Drawing.Point(545, 56);
@@ -389,20 +389,20 @@
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnEliminar
             // 
-            this.button5.BackColor = System.Drawing.Color.Red;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button5.Location = new System.Drawing.Point(243, 88);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(116, 106);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Eliminar";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnEliminar.BackColor = System.Drawing.Color.Red;
+            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnEliminar.Location = new System.Drawing.Point(243, 88);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(116, 106);
+            this.btnEliminar.TabIndex = 16;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.button5_Click);
             // 
             // Registro_E_S
             // 
@@ -450,17 +450,17 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DateTimePicker Tiempo;
+        private System.Windows.Forms.DateTimePicker Fecha;
+        private System.Windows.Forms.ComboBox txtTipoRegistro;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btnGuardar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnBuscarPorTipo;
         private System.Windows.Forms.TextBox txtTipoDeBusqueda;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox TxtTipoBusqueda;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnEditar;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }
